@@ -18,15 +18,17 @@ header {
   position: fixed;
   width: 100%;
 }
-#home {
-  color: #cfae41;
-  margin: 1em 2em 0 0;
-}
 #highlight {
   background-color: #cfae41;
-  width: 3.2em;
+  width: 3.6em;
   height: 3px;
   margin-top: 1em;
+}
+#Socials {
+  text-decoration: none;
+  color: #ffe389;
+  margin: 1em 2em 0 0;
+  transition: 0.2s;
 }
 nav {
   display: flex;
@@ -40,16 +42,14 @@ h1 {
   line-height: 0;
   color: #cfae41;
 }
-
-#Socials,
+#home,
 #Portfolio {
   text-decoration: none;
   color: #fcf2ff;
   margin: 1em 2em 0 0;
   transition: 0.2s;
 }
-
-#Socials:hover,
+#home:hover,
 #Portfolio:hover {
   text-decoration: none;
   color: #ffe389;
@@ -64,40 +64,46 @@ h1 {
   margin: 0.75em 7rem 0 1em;
 }
 h2 {
-  margin-left: 7rem;
-  font-size: 2.5em;
+  text-align: center;
+  font-size: 2.5rem;
 }
-#about {
-  margin-left: 7rem;
-}
-p a {
-  color: #cfae41;
-}
-p {
-  font-family: "PT Serif", serif;
-  font-size: 17px;
-}
-#cta {
-  background-color: rgba(0, 0, 0, 0);
-  border: 3px solid #f3cc4e;
-  width: 155px;
-  height: 55px;
-  font-size: 20px;
-  border-radius: 15px;
-  margin: 1em 0 0 7rem;
-  text-decoration: none;
 
-  text-underline-position: auto;
-}
-#emailCta {
-  background-color: #e389ff;
-  border: none;
-  width: 155px;
-  height: 55px;
-  font-size: 20px;
+#ig {
+  background-color: #f8f0fa;
+  margin: 0.5rem auto;
+  text-align: start;
+  border: 3px solid #ffe389;
+  width: 20em;
+  height: 3.5em;
   border-radius: 15px;
-  margin: 1em 0 0 1rem;
-  text-decoration: none;
-
-  text-underline-position: auto;
+  padding: 0em 0 0 0.6em;
+}
+img {
+  width: 2em;
+  margin: 0.6em 1em 0 0;
+}
+div span {
+  position: absolute;
+  line-height: 3em;
+  color: #121413;
+}
+#github {
+  background-color: #f8f0fa;
+  text-align: start;
+  margin: 0.5rem auto;
+  border: 3px solid #ffe389;
+  width: 20em;
+  height: 3.5em;
+  border-radius: 15px;
+  padding: 0em 0 0 0.6em;
+}
+#linkedIn {
+  background-color: #f8f0fa;
+  text-align: start;
+  margin: 0.5rem auto;
+  border: 3px solid #ffe389;
+  width: 20em;
+  height: 3.5em;
+  border-radius: 15px;
+  padding: 0em 0 0 0.6em;
 }
